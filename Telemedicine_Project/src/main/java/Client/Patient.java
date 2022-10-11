@@ -24,6 +24,19 @@ public class Patient {
     private Date dob;
     Signals signal;
 
+    public Patient(String name, String lastname, Integer id, String gender, String address, String telephone, Date dob, Signals signal) {
+        this.name = name;
+        this.lastname = lastname;
+        this.id = id;
+        this.gender = gender;
+        this.address = address;
+        this.telephone = telephone;
+        this.dob = dob;
+        this.signal = signal;
+    }
+
+    
+    
     public String getName() {
         return name;
     }
